@@ -6,19 +6,11 @@
  * and open the template in the editor.
  */
 
-/**
- * Description of AlunoDAO
- *
- * @author Gabriel Martins
- */
-
 
 namespace AppBundle\DAO;
 
 use Doctrine\ORM\EntityManager;
-
 use AppBundle\DAO\GenericDAO;
-
 use AppBundle\Entity\Aluno;
 
 class AlunoDAO extends GenericDAO {
